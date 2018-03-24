@@ -105,7 +105,7 @@ public class Text_Letter_Propagator : MonoBehaviour {
 						column++;
 					} else {
 						Grid_Board [row, column].GetComponent<TextMesh> ().text = word [word_index_size].ToString ();
-						column++;Do
+						column++;
 					}
 				}
 			}
